@@ -43,6 +43,10 @@ class Dog
     dog
   end 
   
+  def self.new_from_db(array)
+    sog = self.new()
+    
+  end 
   
   
   
