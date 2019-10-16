@@ -44,7 +44,7 @@ class Dog
   end 
   
   def self.new_from_db(array)
-    sog = self.new()
+    dog = self.new()
     
   end 
   
