@@ -32,7 +32,10 @@ class Dog
     end 
   end 
   
-  def self.create() 
+  def self.create(hash)
+    dog = self.new(hash)
+    dog.save
+    dog
   end 
   
   
